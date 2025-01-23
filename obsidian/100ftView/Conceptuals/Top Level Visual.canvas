@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"cd31b5633792f0eb","x":-160,"y":-280,"width":250,"height":60,"color":"1","type":"text","text":"Customer Ledger"},
+		{"id":"d48da597b73e3fb8","x":-160,"y":-100,"width":250,"height":60,"color":"2","type":"text","text":"AWS_Automation"},
+		{"id":"1182daf35fd66cb0","x":-358,"y":84,"width":250,"height":60,"color":"4","type":"text","text":"AWS Services Made"},
+		{"id":"d69a1c79b3b78eaa","x":-35,"y":94,"width":311,"height":86,"color":"3","type":"text","text":"Ledger + Output File \nOR \nLedger & Output FIle"}
+	],
+	"edges":[
+		{"id":"ffe43c1b80f3870f","fromNode":"cd31b5633792f0eb","fromSide":"bottom","toNode":"d48da597b73e3fb8","toSide":"top","color":"1"},
+		{"id":"7ffcb08b7607f016","fromNode":"d48da597b73e3fb8","fromSide":"bottom","toNode":"1182daf35fd66cb0","toSide":"top","color":"4"},
+		{"id":"e55e671cf0f4a8c2","fromNode":"d48da597b73e3fb8","fromSide":"bottom","toNode":"d69a1c79b3b78eaa","toSide":"top","color":"2"},
+		{"id":"4451292be3a026ef","fromNode":"d69a1c79b3b78eaa","fromSide":"right","toNode":"d48da597b73e3fb8","toSide":"right","color":"5","label":"Code Needs to Spin down items or Restart Them"}
+	]
+}

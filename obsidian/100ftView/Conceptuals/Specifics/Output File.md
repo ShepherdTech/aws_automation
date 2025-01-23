@@ -1,0 +1,1 @@
+The output file should just be a tracking of the services that are in use. At the start of the operation the automation should reach out and see if all of the services are still in AWS. It should cleave the entries not in AWS anymore and add anything that isn't there in things like s3. Basically a living file database. 

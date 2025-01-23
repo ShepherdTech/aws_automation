@@ -1,0 +1,3 @@
+I am thinking we feed this code with almost like a ledger style input. Can be of any markup language of choice within reason (Fuck XML). Something like a JSON or TOML or YAML will be fine. The ledger should be two way but readable in both scenarios kind of like a tf file. The idea would be we put in "how many" of the different types of services we need. The code will ingest it, spawn the items and as they spawn we catch the output and store it in either a separate file or state it into the ledger. 
+
+The code itself should 

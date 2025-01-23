@@ -1,0 +1,1 @@
+The ledger file is meant to be a file that the customer fills out or we fill out for the customer to be ingested into the automation code. This should be csv but I am fucking lazy. I would like to see it in yaml or json out the gate till we get some system down for translating from human readable to programmer readable. 
